@@ -20,7 +20,6 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<Logout />} />
       </Routes>
-      <Card/>
       <ProductList/>
     </BrowserRouter>
   );
