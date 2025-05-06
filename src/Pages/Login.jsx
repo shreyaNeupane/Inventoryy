@@ -10,7 +10,7 @@ const Login = () => {
             <div class = "w-[100vw] h-[100vh] px-3 sm:px-5 flex items-center justify-center absolute">
                 <div class = "w-full sm:w-1/2 lg:2/3 px-6 bg-gray-500 bg-opacity-20 bg-clip-padding backdrop-filter backdrop-blur-sm text-white z-50 py-4  rounded-lg">
                     <div class = "w-full flex justify-center text-[#00FF00] text-xl mb:2 md:mb-5">
-                        Sign In
+                        LogIn
                     </div>
                     <div class="mb-6">
                         <label for="email" class="block mb-2 text-xs font-medium text-white">Your email</label>
