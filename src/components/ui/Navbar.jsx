@@ -18,6 +18,14 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/Cart"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                View Cart
+              </NavLink>
+            </li>
 
             <li>
               <NavLink
