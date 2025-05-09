@@ -26,6 +26,14 @@ const Navbar = () => {
                 View Cart
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/ProductList"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Products
+              </NavLink>
+            </li>
 
             <li>
               <NavLink
@@ -39,10 +47,10 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/logout"
+                to="/Signup"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Logout
+                Sign up
               </NavLink>
             </li>
           </ul>

@@ -8,7 +8,8 @@ import Login from './Pages/Login';
 import { Card } from "./components/ui/card";
 import ProductList from "./components/ProductList";
 import Cart from "./Pages/Cart";
-import Signin from "./Pages/Signin";
+import Signup from './Pages/Signup';
+
 
 
 function App() {
@@ -20,10 +21,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/productlist" element={<ProductList/>} />
         <Route path="/login" element={<Login />} />
-        <Route path="/signin" element={<Signin/>} />
+        <Route path="/Signup" element={<Signup/>} />
       </Routes>
-      <ProductList />
+     
     </BrowserRouter>
   );
 }
